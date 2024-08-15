@@ -1,0 +1,7 @@
+dependencies:
+  LED:
+    git: https://github.com/omelaweng/LED_Test.git 
+    path: components/LED
+  SEVENSEGMENT:
+    git: https://github.com/omelaweng/ESP32-LED-7Segment
+    path: components/SevenSegment

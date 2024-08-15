@@ -1,0 +1,23 @@
+dependencies:
+  LED:
+    component_hash: e989f5450f2aaadefe0325d531d8b307b1a052704df167ee0cf08e13272978df
+    source:
+      git: https://github.com/omelaweng/LED_Test.git
+      path: components/LED
+      type: git
+    version: 9340a0782f2864dfde4371b252f8349981723cce
+  SEVENSEGMENT:
+    component_hash: 89712e503c31ed7595a2dd69aab3ac7d0c58d1aa07e0f3d2494d129bfecdf81c
+    source:
+      git: https://github.com/omelaweng/ESP32-LED-7Segment
+      path: components/SevenSegment
+      type: git
+    version: edd5a69b8bf71a4b0e2a87199ba795193effde47
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.2
+manifest_hash: 64f1af07862a1f10bd6d7b64fc168360285e2bf567687ad639e2b0d1d05f490f
+target: esp32
+version: 1.0.0
